@@ -1,0 +1,259 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Suez+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Suez+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    /* font-family: "Suez One", serif; */
+    font-family: "Poppins", sans-serif;
+    /* border: 1px solid; */
+}
+.lion h1{
+     width: 50%;
+     height: 40px;
+     font-size: 22px;
+     text-transform: uppercase;
+     font-weight: 200;
+     font-family: "Poppins", sans-serif;
+     letter-spacing: 5px;
+     margin-left: 400px;
+     margin-top: 30px;
+}
+.wri h1{
+    font-family: "Poppins", sans-serif;
+    width: 80%;
+    height: 50px;
+    font-size: 90px;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+    letter-spacing: 5px;
+    margin-left: 290px;
+    margin-top: 10px;
+}
+.nav{
+    width: 99%;
+    height: 50px;
+    border: 1px solid;
+    margin-top: 100px;
+}
+.nav a{
+    margin-left: 100px;
+    position: relative;
+    left: 400px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
+}
+.fak{
+    width: 60%;
+    height: 700px;
+    border: 1px solid;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+.up{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    background-image: url(./assets/bg.jfif);
+}
+.down p{
+    font-size: 10px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.down h1{
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.down h1:hover{
+    color: #6600EA;
+}
+.down p{
+    font-size: 15px;
+    font-weight: 200;
+}
+.down p{
+    color: #6600EA;
+}
+.pic{
+    width: 99%;
+    height: 2150px;
+    border: 1px solid;
+    display: flex;
+}
+.left{
+    width: 65%;
+    height: 2000px;
+    /* background-color: red; */
+}
+.left h2{
+    width: 100%;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 200;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    margin-top: 40px;
+    margin-left: 100px;
+}
+
+.ppp{
+    width: 55%;
+    height: 300px;
+    border: 1px solid;
+    margin-left: 100px;
+    margin-top: 40px;
+}
+.l{
+    width: 45%;
+    height: inherit;
+    background-image: url(./assets/ramen.png);
+}
+.l2{
+    width: 45%;
+    height: inherit;
+    background-image: url(./assets/fries.jfif);
+    background-position: center;
+    background-size: cover;
+}
+.l3{
+    width: 45%;
+    height: inherit;
+    background-image: url(./assets/leg.png);
+}
+.l4{
+    width: 45%;
+    height: inherit;
+    background-image: url(./assets/trampoline.jfif);
+}
+.l5{
+    width: 45%;
+    height: inherit;
+    background-image: url(./assets/book.jfif);
+}
+.l6{
+    width: 45%;
+    height: inherit;
+    background-image: url(./assets/people.jfif);
+}
+.r p{
+    width: 50%;
+    font-size: 10px;
+    position: relative;
+    top: -270px;
+    left: 280px;
+}
+#kiki{
+    font-size: 20px;
+    letter-spacing: 0px;
+    position: relative;
+    top: -290px;
+    left: 180px;
+    font-weight: 400;
+
+}
+#kiki:hover{
+    color: #6600EA;
+}
+#koko{
+    font-size: 15px;
+    font-weight: 200;
+    margin-top: 30px;
+}
+#koko:hover{
+    color: #6600EA;
+}
+#fort{
+    width: 50%;
+    position: relative;
+    bottom: 255px;
+    left: 265px;
+
+}
+.right{
+    width: 35%;
+    height: 2150px;
+    border: 1px solid;
+}
+#abu{
+    width: 50%;
+    font-size: 20px;
+    position: relative;
+    margin-top: 40px;
+    margin-left: 190px;
+    letter-spacing: 7px;
+    font-weight: 200;
+}
+#out{
+    position: relative;
+    top: 30px;
+    left: 80px;
+}
+#pd{
+    position: relative;
+    top: 80px;
+    left: 110px;
+    width: 70%;
+    font-weight: 200;
+}
+#ponducherry{
+    position: relative;
+    top: 130px;
+    left: 60px;
+    width: 80%;
+}
+#cucu1{
+    position: relative;
+    top: 200px;
+    left: 100px;
+}
+#pd2{
+    position: relative;
+    top: 240px;
+    left: 140px;
+    font-weight: 200;
+    width: 70%;
+}
+.footer{
+    width: 60%;
+    height: 50px;
+    font-size: 15px;
+    text-transform: uppercase;
+    margin-top: 50px;
+    margin-left: 400px;
+
+}
+label{
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+}
+input{
+    font-size: 15px;
+    position: relative;
+    top: 50px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    width: 50%;
+}
+#crocs{
+    width: 15%;
+    height: 50px;
+    background-color: #6600EA;
+    outline: none;
+    border: none;
+    color: white;
+    position: relative;
+    top: 370px;
+    left: 650px;
+}
+#crocs:hover{
+    background-color: black;
+    color: white;
+    position: relative;
+}
